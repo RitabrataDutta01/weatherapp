@@ -12,7 +12,6 @@ root.geometry("500x500")
 unit = tk.StringVar()
 unit.set("Celcius")
 
-photo_image = None
 history = []
 
 # Function to convert temperature from Celsius to Fahrenheit
