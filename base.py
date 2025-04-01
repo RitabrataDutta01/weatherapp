@@ -31,7 +31,7 @@ def search():
 
 def fetch_weather(city):
     try:
-        url = f"http://api.weatherapi.com/v1/current.json?key=9e01f9a69b824793a5474312252203&q={city}"
+        url = f"http://api.weatherapi.com/v1/current.json?key="API KEY"&q={city}"
         response = requests.get(url)
         data = json.loads(response.text)
         city = data["location"]["name"]
